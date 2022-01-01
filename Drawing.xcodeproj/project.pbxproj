@@ -12,11 +12,13 @@
 		C709116C277DBC6000EC547B /* DrawingGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709116B277DBC6000EC547B /* DrawingGroupView.swift */; };
 		C7432CEE2769DA2F00C38DF2 /* SwiftUIPathAndShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7432CED2769DA2E00C38DF2 /* SwiftUIPathAndShapesView.swift */; };
 		C7432CF02769DCF800C38DF2 /* SwiftUIInsettableShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7432CEF2769DCF800C38DF2 /* SwiftUIInsettableShapeView.swift */; };
+		C746CF2E27806E310053BE6E /* BlendingModesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746CF2D27806E310053BE6E /* BlendingModesView.swift */; };
 		C7CA6976276938E10071970A /* SwiftUIPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CA6975276938E10071970A /* SwiftUIPathView.swift */; };
 		C7E41FE627693652008E5ABA /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E41FE527693652008E5ABA /* DrawingApp.swift */; };
 		C7E41FE827693652008E5ABA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E41FE727693652008E5ABA /* ContentView.swift */; };
 		C7E41FEA27693653008E5ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E41FE927693653008E5ABA /* Assets.xcassets */; };
 		C7E41FED27693653008E5ABA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E41FEC27693653008E5ABA /* Preview Assets.xcassets */; };
+		C7F27B95278071D2003BFCBE /* ScreenBlendModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F27B94278071D2003BFCBE /* ScreenBlendModeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +27,14 @@
 		C709116B277DBC6000EC547B /* DrawingGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingGroupView.swift; sourceTree = "<group>"; };
 		C7432CED2769DA2E00C38DF2 /* SwiftUIPathAndShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPathAndShapesView.swift; sourceTree = "<group>"; };
 		C7432CEF2769DCF800C38DF2 /* SwiftUIInsettableShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIInsettableShapeView.swift; sourceTree = "<group>"; };
+		C746CF2D27806E310053BE6E /* BlendingModesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlendingModesView.swift; path = Drawing/BlendingModesView.swift; sourceTree = "<group>"; };
 		C7CA6975276938E10071970A /* SwiftUIPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPathView.swift; sourceTree = "<group>"; };
 		C7E41FE227693652008E5ABA /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E41FE527693652008E5ABA /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		C7E41FE727693652008E5ABA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C7E41FE927693653008E5ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7E41FEC27693653008E5ABA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7F27B94278071D2003BFCBE /* ScreenBlendModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBlendModeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 				C7091167277DB35A00EC547B /* TransformingShapes.swift */,
 				C7091169277DB8CE00EC547B /* CreativeBoredersView.swift */,
 				C709116B277DBC6000EC547B /* DrawingGroupView.swift */,
+				C746CF2D27806E310053BE6E /* BlendingModesView.swift */,
+				C7F27B94278071D2003BFCBE /* ScreenBlendModeView.swift */,
 				C7E41FE427693652008E5ABA /* Drawing */,
 				C7E41FE327693652008E5ABA /* Products */,
 			);
@@ -159,6 +165,8 @@
 				C7E41FE827693652008E5ABA /* ContentView.swift in Sources */,
 				C7432CF02769DCF800C38DF2 /* SwiftUIInsettableShapeView.swift in Sources */,
 				C7091168277DB35A00EC547B /* TransformingShapes.swift in Sources */,
+				C746CF2E27806E310053BE6E /* BlendingModesView.swift in Sources */,
+				C7F27B95278071D2003BFCBE /* ScreenBlendModeView.swift in Sources */,
 				C709116A277DB8CE00EC547B /* CreativeBoredersView.swift in Sources */,
 				C709116C277DBC6000EC547B /* DrawingGroupView.swift in Sources */,
 				C7E41FE627693652008E5ABA /* DrawingApp.swift in Sources */,
@@ -220,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
