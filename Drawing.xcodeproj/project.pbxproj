@@ -20,6 +20,7 @@
 		C7E41FED27693653008E5ABA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E41FEC27693653008E5ABA /* Preview Assets.xcassets */; };
 		C7F27B95278071D2003BFCBE /* ScreenBlendModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F27B94278071D2003BFCBE /* ScreenBlendModeView.swift */; };
 		C7F27B972780ABD4003BFCBE /* AnimatebleDsataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F27B962780ABD4003BFCBE /* AnimatebleDsataView.swift */; };
+		C7F27B992780AE0A003BFCBE /* AnimatablePairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F27B982780AE0A003BFCBE /* AnimatablePairView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		C7E41FEC27693653008E5ABA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C7F27B94278071D2003BFCBE /* ScreenBlendModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBlendModeView.swift; sourceTree = "<group>"; };
 		C7F27B962780ABD4003BFCBE /* AnimatebleDsataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatebleDsataView.swift; sourceTree = "<group>"; };
+		C7F27B982780AE0A003BFCBE /* AnimatablePairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePairView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				C746CF2D27806E310053BE6E /* BlendingModesView.swift */,
 				C7F27B94278071D2003BFCBE /* ScreenBlendModeView.swift */,
 				C7F27B962780ABD4003BFCBE /* AnimatebleDsataView.swift */,
+				C7F27B982780AE0A003BFCBE /* AnimatablePairView.swift */,
 				C7E41FE427693652008E5ABA /* Drawing */,
 				C7E41FE327693652008E5ABA /* Products */,
 			);
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F27B992780AE0A003BFCBE /* AnimatablePairView.swift in Sources */,
 				C7CA6976276938E10071970A /* SwiftUIPathView.swift in Sources */,
 				C7E41FE827693652008E5ABA /* ContentView.swift in Sources */,
 				C7F27B972780ABD4003BFCBE /* AnimatebleDsataView.swift in Sources */,
